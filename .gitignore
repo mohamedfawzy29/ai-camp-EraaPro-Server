@@ -1,0 +1,24 @@
+# ============================================================
+# AI Camp Registration – Go Backend
+# ============================================================
+
+# --- Environment / Secrets ---
+.env
+
+# --- Go build output ---
+/server-binary
+*.exe
+*.out
+
+# --- Go test cache ---
+*.test
+*.prof
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+
+# --- IDE files ---
+.idea/
+.vscode/
+*.swp
